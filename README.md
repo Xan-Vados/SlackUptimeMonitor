@@ -19,7 +19,7 @@ $service cron restart
 $tail -f /root/uptimenotifier.log
 ~~~~
 
-Note that the script is written in Python3.5.
+Note that the script is written in Python 3.5.
 
 ### Step 2 -  Setup the config variables
 
@@ -38,7 +38,7 @@ export SLACK_TOKEN = 'your_token_here'
 
 SLACK_TOKEN = os.environ.get('SLACK_TOKEN')
 
-#### Where you want to receive your notifications ?
+#### Where do you want to receive your notifications?
 
 you can get it using list_channels and channel_info or click on the channel name
 
